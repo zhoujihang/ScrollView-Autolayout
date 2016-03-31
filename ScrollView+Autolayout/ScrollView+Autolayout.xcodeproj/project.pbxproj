@@ -25,6 +25,17 @@
 		472E16111CAACCA9002851D8 /* ArrangeCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E16101CAACCA9002851D8 /* ArrangeCellView.m */; };
 		472E16141CAACCCD002851D8 /* ArrangeCellModelList.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E16131CAACCCD002851D8 /* ArrangeCellModelList.m */; };
 		472E16171CAAD02E002851D8 /* ProjectCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 472E16161CAAD02E002851D8 /* ProjectCellView.m */; };
+		47A7B3491CAC03FD00153662 /* AyiScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B3451CAC03FD00153662 /* AyiScheduleView.m */; };
+		47A7B34A1CAC03FD00153662 /* AyiScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47A7B3461CAC03FD00153662 /* AyiScheduleView.xib */; };
+		47A7B34B1CAC03FD00153662 /* ScheduleUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B3481CAC03FD00153662 /* ScheduleUnitView.m */; };
+		47A7B3501CAC043200153662 /* AyiScheduleOneDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B34D1CAC043200153662 /* AyiScheduleOneDayModel.m */; };
+		47A7B3511CAC043200153662 /* ScheduleUnitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B34F1CAC043200153662 /* ScheduleUnitModel.m */; };
+		47A7B3541CAC04BC00153662 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B3531CAC04BC00153662 /* UIColor+Extension.m */; };
+		47A7B3571CAC05A900153662 /* AyiDetailAndScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B3561CAC05A900153662 /* AyiDetailAndScheduleModel.m */; };
+		47A7B35A1CAC05E800153662 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B3591CAC05E800153662 /* NSDate+Extension.m */; };
+		47A7B35D1CAC060D00153662 /* NSCalendar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B35C1CAC060D00153662 /* NSCalendar+Extension.m */; };
+		47A7B35F1CAC0B0A00153662 /* AyiScheduleJson in Resources */ = {isa = PBXBuildFile; fileRef = 47A7B35E1CAC0B0A00153662 /* AyiScheduleJson */; };
+		47A7B3611CACC69C00153662 /* ArrangeCellJson in Resources */ = {isa = PBXBuildFile; fileRef = 47A7B3601CACC69C00153662 /* ArrangeCellJson */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +88,25 @@
 		472E16131CAACCCD002851D8 /* ArrangeCellModelList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrangeCellModelList.m; sourceTree = "<group>"; };
 		472E16151CAAD02E002851D8 /* ProjectCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectCellView.h; sourceTree = "<group>"; };
 		472E16161CAAD02E002851D8 /* ProjectCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectCellView.m; sourceTree = "<group>"; };
+		47A7B3441CAC03FD00153662 /* AyiScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyiScheduleView.h; sourceTree = "<group>"; };
+		47A7B3451CAC03FD00153662 /* AyiScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyiScheduleView.m; sourceTree = "<group>"; };
+		47A7B3461CAC03FD00153662 /* AyiScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AyiScheduleView.xib; sourceTree = "<group>"; };
+		47A7B3471CAC03FD00153662 /* ScheduleUnitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleUnitView.h; sourceTree = "<group>"; };
+		47A7B3481CAC03FD00153662 /* ScheduleUnitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleUnitView.m; sourceTree = "<group>"; };
+		47A7B34C1CAC043200153662 /* AyiScheduleOneDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyiScheduleOneDayModel.h; sourceTree = "<group>"; };
+		47A7B34D1CAC043200153662 /* AyiScheduleOneDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyiScheduleOneDayModel.m; sourceTree = "<group>"; };
+		47A7B34E1CAC043200153662 /* ScheduleUnitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleUnitModel.h; sourceTree = "<group>"; };
+		47A7B34F1CAC043200153662 /* ScheduleUnitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleUnitModel.m; sourceTree = "<group>"; };
+		47A7B3521CAC04BC00153662 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		47A7B3531CAC04BC00153662 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		47A7B3551CAC05A900153662 /* AyiDetailAndScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AyiDetailAndScheduleModel.h; sourceTree = "<group>"; };
+		47A7B3561CAC05A900153662 /* AyiDetailAndScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AyiDetailAndScheduleModel.m; sourceTree = "<group>"; };
+		47A7B3581CAC05E800153662 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		47A7B3591CAC05E800153662 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		47A7B35B1CAC060D00153662 /* NSCalendar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Extension.h"; sourceTree = "<group>"; };
+		47A7B35C1CAC060D00153662 /* NSCalendar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Extension.m"; sourceTree = "<group>"; };
+		47A7B35E1CAC0B0A00153662 /* AyiScheduleJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AyiScheduleJson; sourceTree = "<group>"; };
+		47A7B3601CACC69C00153662 /* ArrangeCellJson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArrangeCellJson; sourceTree = "<group>"; };
 		6FCBFB92A212D749EB23C772 /* Pods-ScrollView+Autolayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView+Autolayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView+Autolayout/Pods-ScrollView+Autolayout.release.xcconfig"; sourceTree = "<group>"; };
 		7055F96842E15FE072970938 /* libPods-ScrollView+Autolayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollView+Autolayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76D11549ED14EF37C79E2B7 /* Pods-ScrollView+Autolayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView+Autolayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView+Autolayout/Pods-ScrollView+Autolayout.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +197,8 @@
 				472E15D61CAABB32002851D8 /* Info.plist */,
 				472E15C61CAABB32002851D8 /* main.m */,
 				472E160C1CAAC4BF002851D8 /* BannerJson */,
+				47A7B35E1CAC0B0A00153662 /* AyiScheduleJson */,
+				47A7B3601CACC69C00153662 /* ArrangeCellJson */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +226,7 @@
 			children = (
 				472E15F91CAABF50002851D8 /* ViewController.h */,
 				472E15FA1CAABF50002851D8 /* ViewController.m */,
+				47A7B3431CAC03FD00153662 /* AyiScheduleView */,
 				472E160E1CAACC95002851D8 /* ArrangeCellView */,
 				472E15FC1CAABF73002851D8 /* ScrollBannerModule */,
 				472E16051CAAC00A002851D8 /* Category */,
@@ -216,6 +249,12 @@
 		472E16051CAAC00A002851D8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				47A7B35B1CAC060D00153662 /* NSCalendar+Extension.h */,
+				47A7B35C1CAC060D00153662 /* NSCalendar+Extension.m */,
+				47A7B3581CAC05E800153662 /* NSDate+Extension.h */,
+				47A7B3591CAC05E800153662 /* NSDate+Extension.m */,
+				47A7B3521CAC04BC00153662 /* UIColor+Extension.h */,
+				47A7B3531CAC04BC00153662 /* UIColor+Extension.m */,
 				472E16091CAAC024002851D8 /* UIImage+Extension.h */,
 				472E160A1CAAC024002851D8 /* UIImage+Extension.m */,
 				472E16061CAAC01A002851D8 /* UIView+Extension.h */,
@@ -235,6 +274,24 @@
 				472E16131CAACCCD002851D8 /* ArrangeCellModelList.m */,
 			);
 			path = ArrangeCellView;
+			sourceTree = "<group>";
+		};
+		47A7B3431CAC03FD00153662 /* AyiScheduleView */ = {
+			isa = PBXGroup;
+			children = (
+				47A7B3441CAC03FD00153662 /* AyiScheduleView.h */,
+				47A7B3451CAC03FD00153662 /* AyiScheduleView.m */,
+				47A7B3461CAC03FD00153662 /* AyiScheduleView.xib */,
+				47A7B3471CAC03FD00153662 /* ScheduleUnitView.h */,
+				47A7B3481CAC03FD00153662 /* ScheduleUnitView.m */,
+				47A7B3551CAC05A900153662 /* AyiDetailAndScheduleModel.h */,
+				47A7B3561CAC05A900153662 /* AyiDetailAndScheduleModel.m */,
+				47A7B34C1CAC043200153662 /* AyiScheduleOneDayModel.h */,
+				47A7B34D1CAC043200153662 /* AyiScheduleOneDayModel.m */,
+				47A7B34E1CAC043200153662 /* ScheduleUnitModel.h */,
+				47A7B34F1CAC043200153662 /* ScheduleUnitModel.m */,
+			);
+			path = AyiScheduleView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,9 +400,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47A7B35F1CAC0B0A00153662 /* AyiScheduleJson in Resources */,
+				47A7B3611CACC69C00153662 /* ArrangeCellJson in Resources */,
 				472E15D51CAABB32002851D8 /* LaunchScreen.storyboard in Resources */,
 				472E16041CAABF73002851D8 /* ScrollBannerView.xib in Resources */,
 				472E160D1CAAC4BF002851D8 /* BannerJson in Resources */,
+				47A7B34A1CAC03FD00153662 /* AyiScheduleView.xib in Resources */,
 				472E15D21CAABB32002851D8 /* Assets.xcassets in Resources */,
 				472E15D01CAABB32002851D8 /* Main.storyboard in Resources */,
 			);
@@ -421,15 +481,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				472E16081CAAC01A002851D8 /* UIView+Extension.m in Sources */,
+				47A7B34B1CAC03FD00153662 /* ScheduleUnitView.m in Sources */,
 				472E16141CAACCCD002851D8 /* ArrangeCellModelList.m in Sources */,
 				472E16171CAAD02E002851D8 /* ProjectCellView.m in Sources */,
+				47A7B3511CAC043200153662 /* ScheduleUnitModel.m in Sources */,
 				472E160B1CAAC024002851D8 /* UIImage+Extension.m in Sources */,
+				47A7B35D1CAC060D00153662 /* NSCalendar+Extension.m in Sources */,
+				47A7B3491CAC03FD00153662 /* AyiScheduleView.m in Sources */,
+				47A7B3541CAC04BC00153662 /* UIColor+Extension.m in Sources */,
 				472E16031CAABF73002851D8 /* ScrollBannerView.m in Sources */,
 				472E15CA1CAABB32002851D8 /* AppDelegate.m in Sources */,
+				47A7B35A1CAC05E800153662 /* NSDate+Extension.m in Sources */,
 				472E15FB1CAABF50002851D8 /* ViewController.m in Sources */,
 				472E15C71CAABB32002851D8 /* main.m in Sources */,
 				472E16021CAABF73002851D8 /* BannerListModel.m in Sources */,
+				47A7B3571CAC05A900153662 /* AyiDetailAndScheduleModel.m in Sources */,
 				472E16111CAACCA9002851D8 /* ArrangeCellView.m in Sources */,
+				47A7B3501CAC043200153662 /* AyiScheduleOneDayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

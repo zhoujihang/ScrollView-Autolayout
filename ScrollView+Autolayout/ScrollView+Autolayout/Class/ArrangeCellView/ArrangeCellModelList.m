@@ -16,6 +16,13 @@
              };
 }
 
++ (instancetype)fakeModel{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"ArrangeCellJson" ofType:nil];
+    NSString *jsonString = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
+    ArrangeCellModelList *model = [ArrangeCellModelList mj_objectWithKeyValues:jsonString];
+    return model;
+}
+
 @end
 
 

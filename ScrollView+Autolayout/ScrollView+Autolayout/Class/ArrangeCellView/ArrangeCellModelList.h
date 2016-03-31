@@ -10,14 +10,17 @@
 
 @interface ArrangeCellModelList : NSObject
 
-
 @property (nonatomic, strong) NSMutableArray *modelMArr;
+
++ (instancetype)fakeModel;
 
 @end
 
 @interface ArrangeCellModel : NSObject
 
+@property (nonatomic, copy) NSString *imageUrl;
 
+@property (nonatomic, copy) NSString *title;
 
 @end
 
